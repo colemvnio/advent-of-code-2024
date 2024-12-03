@@ -13,7 +13,8 @@ def solve_part1(lines: list[str]) -> int:
     return total
 
 
-# Idea: 
+# Idea: Similar to part 1, extract all operations, then evaluate do() or don't(), then RIGHT AFTER
+# perform the operation by extracting x and y
 def solve_part2(lines: list[str]) -> int:
     total = 0
     enabled = True
