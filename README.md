@@ -1,8 +1,6 @@
 # Advent of Code Solutions
 This repository contains my solutions for [Advent of Code 2024](https://adventofcode.com/) challenges.
 
-[[_TOC_]]
-
 ## Structure
 
 - `solutions/`: Contains solution files organized by day
@@ -28,7 +26,7 @@ pip install -r requirements.txt
 Each day's solution can be run from its respective file in the `solutions` directory:
 
 ```bash
-python solutions/day01/solution.py
+python -m solutions.day01.solution
 ```
 
 ## Running Tests
