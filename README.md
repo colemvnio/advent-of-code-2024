@@ -29,10 +29,4 @@ Each day's solution can be run from its respective file in the `solutions` direc
 python -m solutions.day01.solution
 ```
 
-## Running Tests
-
-```bash
-pytest tests/
-```
-
 Made with ❤️ by [Patrick](https://bento.me/patrick-c)
